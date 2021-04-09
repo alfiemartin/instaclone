@@ -5,20 +5,20 @@ import "./NavBar.scss";
 
 const NavBar = () => {
   return (
-    <nav className={"NAVBAR"}>
+    <nav className="NAVBAR">
       <img
-        className={"logo"}
+        className="logo"
         src="insta-logobig.png"
         width={100}
         alt="instagram logo"
       />
-      <div className={"searchBox"}>
+      <div className="searchBox">
         <input type="text" name="" placeholder="Search" />
       </div>
-      <div className={"navItems"}>
+      <div className="navItems">
         <svg
           aria-label="Home"
-          className={"navButton"}
+          className="navButton"
           fill="#262626"
           height="22"
           viewBox="0 0 48 48"
@@ -28,7 +28,7 @@ const NavBar = () => {
         </svg>
         <svg
           aria-label="Direct"
-          className={"navButton"}
+          className="navButton"
           fill="#262626"
           height="22"
           viewBox="0 0 48 48"
@@ -38,7 +38,7 @@ const NavBar = () => {
         </svg>
         <svg
           aria-label="Find people"
-          className={"navButton"}
+          className="navButton"
           fill="#262626"
           height="22"
           viewBox="0 0 48 48"
@@ -52,7 +52,7 @@ const NavBar = () => {
         </svg>
         <svg
           aria-label="Activity Feed"
-          className={"navButton"}
+          className="navButton"
           fill="#262626"
           height="22"
           viewBox="0 0 48 48"

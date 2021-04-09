@@ -3,9 +3,9 @@ import "./Post.scss";
 
 const Post = () => {
   return (
-    <div className={"post"}>
-      <div className={"topSection"}>
-        <div className={"userInfo"}>
+    <div className="post">
+      <div className="topSection">
+        <div className="userInfo">
           <img
             src="https://scontent-lht6-1.cdninstagram.com/v/t51.2885-19/s150x150/156568246_5133094516765223_661181917589035347_n.jpg?tp=1&_nc_ht=scontent-lht6-1.cdninstagram.com&_nc_ohc=JHA6jqNHM_0AX_HDSR6&oh=b37b4fa9d764bee70a32f343e8c18424&oe=60798BD4"
             alt="user"
@@ -42,15 +42,15 @@ const Post = () => {
           ></circle>
         </svg>
       </div>
-      <div className={"postMedia"}>
+      <div className="postMedia">
         <img
           src="https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/160474419_773663153543659_6786677671608605819_n.jpg?tp=1&_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=107&_nc_ohc=csksE7dIB2YAX9BbbLy&oh=ab5c057671088e6895e022b3ad26308e&oe=607AA1D2"
           alt="post"
         />
       </div>
-      <div className={"commentsSection"}>
-        <div className={"interactionSection"}>
-          <div className={"interactionButtonsWrapper"}>
+      <div className="commentsSection">
+        <div className="interactionSection">
+          <div className="interactionButtonsWrapper">
             <svg
               aria-label="Like"
               fill="#262626"
@@ -94,16 +94,16 @@ const Post = () => {
           </svg>
         </div>
         <h2>10,217 likes</h2>
-        <div className={"caption"}>
+        <div className="caption">
           <h2>garryszabo &nbsp;</h2>
           <h2>Looking fresh</h2>
         </div>
-        <h2 className={"loadComments"}>View all 195 comments</h2>
-        <div className={"comment"}>
+        <h2 className="loadComments">View all 195 comments</h2>
+        <div className="comment">
           <h2>am99999999 &nbsp;</h2>
           <h2>cool bro</h2>
         </div>
-        <div className={"comment"}>
+        <div className="comment">
           <h2>sebt1 &nbsp;</h2>
           <h2>so fresh bro</h2>
         </div>
