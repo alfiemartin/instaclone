@@ -5,11 +5,12 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import Feed from "./components/Feed";
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className="main">
         <nav>
           <ul>
             <li></li>
@@ -17,8 +18,8 @@ function App() {
             <li></li>
           </ul>
         </nav>
+        <Feed />
       </div>
-      <div>Pages here</div>
     </Router>
   );
 }
