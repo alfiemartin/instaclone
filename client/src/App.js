@@ -5,20 +5,17 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import Feed from "./components/Feed";
+import NavBar from "./components/NavBar";
+import "./index.css";
 
 function App() {
   return (
     <Router>
-      <div>
-        <nav>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </nav>
+      <div className="main">
+        <NavBar />
+        <Feed />
       </div>
-      <div>Pages here</div>
     </Router>
   );
 }
