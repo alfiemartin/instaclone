@@ -1,5 +1,24 @@
 .feed {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 57px;
+}
+
+.divider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
   width: 100vw;
-  height: 100vh;
-  background: blue;
+  height: 2px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  border-top: 1px solid rgb(207, 207, 207);
+}
+
+@media only screen and (min-width: 600px) {
+  .feed {
+    width: 600px;
+    margin-top: 92px;
+  }
 }

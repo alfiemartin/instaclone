@@ -6,18 +6,14 @@ import {
   Link,
 } from "react-router-dom";
 import Feed from "./components/Feed";
+import NavBar from "./components/NavBar";
+import "./index.css";
 
 function App() {
   return (
     <Router>
       <div className="main">
-        <nav>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </nav>
+        <NavBar />
         <Feed />
       </div>
     </Router>

@@ -4,3 +4,8 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
+.main {
+  width: 100vw;
+  height: 100vh;
+}
